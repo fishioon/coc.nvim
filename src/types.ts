@@ -355,6 +355,7 @@ export interface LocationListItem {
 
 export interface QuickfixItem {
   uri?: string
+  module?: string
   range?: Range
   text?: string
   type?: string,
